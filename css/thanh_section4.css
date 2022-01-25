@@ -1,12 +1,36 @@
-.session4_title{
+.section4_title{
     text-align: center;
     width:100%
     
 }
-    .span{
+   .span_section4{
         display: inline-block;
     width: 92px;
     height: 92px;
     margin: 3px;
+    background:url('../img/usp-logo.png')
     }
+    .section4_position{
+        display:flex;
+        box-sizing: border-box;
+        width:70%;
+    margin:0 auto;
+    }
+    
+.section4_img{
+    width:500px;
+}
+.section4_content{
+padding-left: 30px;
+
+}
+.section4_content h2{
+    font-size: 40px;
+}
+.section4_content p{
+    font-size: 20px;
+}
+
+
+
     

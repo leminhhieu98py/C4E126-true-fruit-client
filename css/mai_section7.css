@@ -1,0 +1,43 @@
+.text-center{
+    display:flex;
+    justify-content:center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+ 
+}
+* {box-sizing:border-box}
+
+.cac_khoi_slide{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(248, 247, 247, 0.8);
+  }
+
+
+.people{
+    text-align: right;
+}

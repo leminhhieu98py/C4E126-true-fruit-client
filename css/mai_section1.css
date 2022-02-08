@@ -12,9 +12,21 @@ h4{
 .container {
     display: flex;
     flex-direction: row;
+    justify-content:center;
   }
-
+.container2{
+  margin-right: 60px;
+  margin-left: 60px;
+}
 .item {
     display: flex;
     flex-direction:row;
+    
   }
+.item img{
+  height: 60px ;
+  width: 60px;
+  border-radius: 50% ;
+  margin-top: 15px;
+  margin-right: 20px;
+}

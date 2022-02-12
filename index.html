@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
     <title>Client</title>
-</head>
-<body>
-    <h1>Hello, Dev_Mai!</h1>
-    <h1>Hello From Thanh </h1>
-    
-</body>
+  </head>
+  <body>
+    <div style="margin: 0 10% 10% 10%">
+      <div id="section1"></div>
+      <div id="section2"></div>
+      <div id="section3"></div>
+      <div id="section4"></div>
+      <div id="section5"></div>
+      <div id="section6"></div>
+      <div id="section7"></div>
+      <div id="section8"></div>
+      <div id="footer"></div>
+    </div>
+
+    <script>
+      $("#section1").load("./html/mai_section1.html");
+      $("#section3").load("./html/thanh_section3.html");
+      $("#section4").load("./html/thanh_section4.html");
+      $("#section7").load("./html/mai_section7.html");
+      $("#section8").load("./html/thanh_section8.html");
+      $("#section9").load("./html/mai_section9.html");
+      $("#footer").load("./html/mai_footer.html");
+    </script>
+  </body>
 </html>

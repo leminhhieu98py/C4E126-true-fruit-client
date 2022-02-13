@@ -9,11 +9,7 @@
   box-sizing: border-box;
 }
 
-.cac_khoi_slide {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+/* */
 .prev,
 .next {
   cursor: pointer;

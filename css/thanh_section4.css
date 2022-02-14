@@ -16,6 +16,7 @@
 }
 
 #section4_big_container .section4_img {
+  max-width: unset;
   width: 340px;
   height: 340px;
 }
@@ -41,4 +42,8 @@
 
 #section4_big_container{
   margin-top: 80px;
+}
+
+#section4_big_container > div {
+  margin-bottom: 30px;
 }

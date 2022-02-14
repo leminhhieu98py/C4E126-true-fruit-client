@@ -1,47 +1,49 @@
-.section4_title{
-    text-align: center;
-    width:100%
-    
+.section4_title {
+  text-align: center;
+  width: 100%;
 }
-   .span_section4{
-        display: inline-block;
-    width: 92px;
-    height: 92px;
-    margin: 3px;
-    background:url('../img/usp-logo.png')
-    }
-    .section4_position{
-        display:flex;
-        box-sizing: border-box;
-        width:70%;
-    margin:0 auto;
-    }
-    
-.section4_img{
-    width:500px;
+.span_section4 {
+  display: inline-block;
+  width: 92px;
+  height: 92px;
+  margin: 3px;
+  background: url("../img/usp-logo.png");
 }
-.section4_content{
-padding-left: 30px;
-
-}
-.section4_content h2{
-    font-size: 40px;
-}
-.section4_content p{
-    font-size: 20px;
-}
-.section4_big_text{
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 72px;
-}
-.section4_title h3{
-    font-size: 18px;
-    font-family: 'Roboto';
+.section4_position {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
+#section4_big_container .section4_img {
+  max-width: unset;
+  width: 340px;
+  height: 340px;
+}
+.section4_content {
+  padding-left: 30px;
+}
+.section4_content h2 {
+  font-size: 40px;
+}
+.section4_content p {
+  font-size: 20px;
+}
+.section4_big_text {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section4_title h3 {
+  font-size: 18px;
+  font-family: "Roboto";
+}
 
+#section4_big_container{
+  margin-top: 80px;
+}
 
-
-
-    
+#section4_big_container > div {
+  margin-bottom: 30px;
+}

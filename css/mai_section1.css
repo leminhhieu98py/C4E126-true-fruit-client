@@ -13,27 +13,28 @@
   font-weight: 600;
   font-size: 28px;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> dev_Mai
 .section1 .container {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
+  margin: 80px auto;
 }
 .section1 .container2 {
-  margin-right: 60px;
-  margin-left: 60px;
+  background-image: url("../Img/Ảnh True Juice.png");
+  background-size: cover;
+  background-position: center;
+  width: 15%;
+  margin-left: 9%;
+  margin-right: 8%;
 }
 .section1 .item {
   display: flex;
   flex-direction: row;
 }
 .section1 .item img {
-  height: 60px;
   width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-top: 15px;
   margin-right: 20px;
@@ -41,11 +42,20 @@
 
 .section1 .container p,
 .item p {
-  padding: 10px;
+  padding: 10px 0;
   width: 400px;
   text-align: justify;
 }
+
+.section1 .item p {
+  padding: 0 10px;
+}
+
 .section1 .container2 .item p {
   font-size: 14;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section1 .logo {
+  width: 30%;
 }

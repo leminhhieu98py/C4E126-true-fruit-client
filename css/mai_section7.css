@@ -38,6 +38,30 @@
 
 .people {
   text-align: right;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 24px;
+  margin-right: 10%;
+}
+
+.title-description-7 {
+  margin: 50px 25%;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+#section7_big_container p:first-child {
+  font-family: "Roboto", Arial, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  text-indent: 28px;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 /* COPY TỪ W3S VỀ ----------------------------------------------------------------------------------- */

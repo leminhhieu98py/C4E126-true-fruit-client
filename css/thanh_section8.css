@@ -8,15 +8,19 @@
   text-align: center;
   width: 100%;
 }
-.section8_position{
-   display: grid;
-   grid-template-columns: auto auto auto auto auto;
-  gap: 20px ;
-  width: 85%;
+
+.section8_title h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  margin-bottom: 60px;
+}
+
+#section8_big_div {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 .section8_img {
-  width: 17%;
+  width: 18%;
   margin-right: 2%;
   margin-bottom: 2%;
   height: 240px;

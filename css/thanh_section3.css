@@ -70,19 +70,13 @@ body {
 }
 .image-slider {
   padding-bottom: 50px;
-  width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .image {
   height: 800px;
   margin-bottom: 5px;
 }
-/* .image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-} */
+
 .image-title {
   font-size: 20px;
   color: #8e8fb5;
@@ -105,6 +99,7 @@ body {
   line-height: 1;
   z-index: 5;
   transition: all 0.2s linear;
+  border-radius: 50%;
 }
 .slick-arrow:hover {
   background-color: #2cccff;

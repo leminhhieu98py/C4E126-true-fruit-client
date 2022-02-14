@@ -12,12 +12,13 @@
 .section4_position {
   display: flex;
   box-sizing: border-box;
-  width: 70%;
   margin: 0 auto;
 }
 
-.section4_img {
-  width: 500px;
+#section4_big_container .section4_img {
+  max-width: unset;
+  width: 340px;
+  height: 340px;
 }
 .section4_content {
   padding-left: 30px;
@@ -37,4 +38,12 @@
 .section4_title h3 {
   font-size: 18px;
   font-family: "Roboto";
+}
+
+#section4_big_container{
+  margin-top: 80px;
+}
+
+#section4_big_container > div {
+  margin-bottom: 30px;
 }

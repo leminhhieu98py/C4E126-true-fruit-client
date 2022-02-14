@@ -1,10 +1,56 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    margin-right: 60px
-  }
+  display: flex;
+  height: 710px;
+  margin: 100px -14%;
+  flex-direction: row;
+  background-image: url("https://truejuice.vn/images/home/home-14.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.item{
-text-align: center;
+.section9 {
+  padding-left: 70%;
+}
 
+.section9 .item {
+  width: 100%;
+  text-align: center;
+  margin: 25% 0;
+}
+
+.section9 .item h1 {
+  line-height: 1.4;
+  font-size: 35px;
+}
+
+.section9 .item p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.section9 .order {
+  background-color: #85b210;
+  color: #fff;
+  padding: 14px;
+  border: 1px solid #769b11;
+  width: 260px;
+  height: 53px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section9 .order:hover {
+  cursor: pointer;
+}
+
+.section9 .item2 {
+  text-align: center;
+}
+
+.section9 .item2 span {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-family: "Roboto", Arial, sans-serif;
 }

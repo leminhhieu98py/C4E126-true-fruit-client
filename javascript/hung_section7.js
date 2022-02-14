@@ -1,3 +1,5 @@
+var slideIndex = 1;
+
 function getSection7Data() {
   const big_div_section7 = document.getElementById("section7_big_container");
   fetch("https://6207b20522c9e90017d32ead.mockapi.io/section7")
@@ -7,24 +9,26 @@ function getSection7Data() {
       for (let i = 0; i < data.length; i++) {
         big_div_section7.insertAdjacentHTML(
           "beforeend",
-          `<div class="silde">
-        <p>
-        ${data[i][paragraph]}
-        </p>
-        <p class="people">
-         ${data[i][author]}
-          <br />
-          ${data[i][description]}  
-        </p>
-      </div>`
+          `<div class="mySlides fade">
+          <div>
+            <p>
+            ${data[i]["paragraph"]}
+            </p>
+            <p class="people">
+            ${data[i]["author"]}
+              <br />
+              ${data[i]["description"]}
+            </p>
+          </div>
+          <div class="text">Caption Text</div>
+        </div>`
         );
       }
+
+      showSlides(slideIndex);
     });
 }
 getSection7Data();
-
-var slideIndex = 1;
-showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -45,6 +49,9 @@ function showSlides(n) {
   }
   if (n < 1) {
     slideIndex = slides.length;
+  }
+  if (slides.length === 0) {
+    return;
   }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";

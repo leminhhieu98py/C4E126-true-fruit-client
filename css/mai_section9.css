@@ -1,7 +1,7 @@
-.container {
+.container9 {
   display: flex;
   height: 710px;
-  margin: 100px -14%;
+  margin: 100px -13%;
   flex-direction: row;
   background-image: url("https://truejuice.vn/images/home/home-14.jpg");
   background-repeat: no-repeat;
@@ -53,4 +53,9 @@
   margin-bottom: 15px;
   font-size: 17px;
   font-family: "Roboto", Arial, sans-serif;
+}
+.item2{
+  width: 400px;
+  text-align: center;
+  padding: 20px;
 }

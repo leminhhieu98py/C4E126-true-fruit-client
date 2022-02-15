@@ -3,7 +3,7 @@ section{
     clear: both;
 }
 .section10{
-    margin: 30px;
+    margin: 80px -13%;
     background-image: url("/Img/home-07.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,8 +11,7 @@ section{
     padding-right: 150px;
     padding-bottom: 235px;
     padding-left: 150px;
-    width: 1200px;
-    height: 600px;
+    height: 700px;
 }
 .heading{
     padding: 10px 0px;
@@ -59,9 +58,12 @@ a.btn-continues{
 .stories {
     width: 600px;
     height: 525px;
+    margin-left: 300px;
+    margin-right: 100px;
     background: url("/Img/our-story-home-cover.jpg") no-repeat;
     background-size: contain;
 }
 .container-sec10{
     box-sizing: border-box;
+    display: flex;
 }

@@ -14,8 +14,9 @@
 }
 
 .footer_conteiner01 img {
-  width: 250px;
   max-width: none;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .footer_conteiner .item {
@@ -54,7 +55,8 @@
 }
 
 .w-40 {
-  width: 40%;
+  width: 35%;
+  margin-right: 5%;
 }
 
 .w-20 {

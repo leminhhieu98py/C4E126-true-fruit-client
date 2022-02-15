@@ -2,7 +2,7 @@ var slideIndex = 1;
 
 function getSection7Data() {
   const big_div_section7 = document.getElementById("section7_big_container");
-  fetch("https://truejuice.free.beeceptor.com/section7")
+  fetch("https://truejuice2.free.beeceptor.com/section7")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);

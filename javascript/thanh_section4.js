@@ -1,7 +1,7 @@
 function getSection4Data() {
   const big_div_section4 = document.getElementById("section4_big_container");
 
-  fetch("https://truejuice2.free.beeceptor.com/section4")
+  fetch("https://truejuice.free.beeceptor.com/section4")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
